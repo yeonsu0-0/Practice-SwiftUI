@@ -18,6 +18,7 @@
 		2FC31FAC2A7A3EDA007F8DBB /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC31FAB2A7A3EDA007F8DBB /* DailyScrum.swift */; };
 		2FC31FB02A7A3F87007F8DBB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC31FAF2A7A3F87007F8DBB /* CardView.swift */; };
 		2FC31FB22A7A4ED4007F8DBB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC31FB12A7A4ED4007F8DBB /* TrailingIconLabelStyle.swift */; };
+		2FC31FB42A7A51E0007F8DBB /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC31FB32A7A51E0007F8DBB /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		2FC31FAB2A7A3EDA007F8DBB /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		2FC31FAF2A7A3F87007F8DBB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		2FC31FB12A7A4ED4007F8DBB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		2FC31FB32A7A51E0007F8DBB /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2FC31F7E2A7A2336007F8DBB /* SwiftUI_essentialsApp.swift */,
 				2FC31F802A7A2336007F8DBB /* MeetingView.swift */,
 				2FC31FAF2A7A3F87007F8DBB /* CardView.swift */,
+				2FC31FB32A7A51E0007F8DBB /* ScrumsView.swift */,
 				2FC31FA82A7A3DA0007F8DBB /* Models */,
 				2FC31F822A7A233B007F8DBB /* Assets.xcassets */,
 				2FC31F842A7A233B007F8DBB /* Preview Content */,
@@ -280,6 +283,7 @@
 				2FC31FAC2A7A3EDA007F8DBB /* DailyScrum.swift in Sources */,
 				2FC31FB22A7A4ED4007F8DBB /* TrailingIconLabelStyle.swift in Sources */,
 				2FC31FAA2A7A3DB7007F8DBB /* Theme.swift in Sources */,
+				2FC31FB42A7A51E0007F8DBB /* ScrumsView.swift in Sources */,
 				2FC31F812A7A2336007F8DBB /* MeetingView.swift in Sources */,
 				2FC31F7F2A7A2336007F8DBB /* SwiftUI_essentialsApp.swift in Sources */,
 				2FC31FB02A7A3F87007F8DBB /* CardView.swift in Sources */,
