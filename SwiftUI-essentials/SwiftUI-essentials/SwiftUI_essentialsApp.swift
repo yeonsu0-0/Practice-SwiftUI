@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUI_essentialsApp: App {
+    @State private var scrums = DailyScrum.sampleData
+    
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            ScrumsView(scrums: $scrums)
         }
     }
 }

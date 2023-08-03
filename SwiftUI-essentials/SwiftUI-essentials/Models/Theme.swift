@@ -11,8 +11,10 @@
 
 import SwiftUI
 
+// 모든 열거형 케이스에 쉽게 접근 -> CaseIterable 프로토콜 채택
+// theme name을 고유 id로 사용 -> Identifiable 프로토콜 채택
 
-enum Theme: String {
+enum Theme: String, CaseIterable, Identifiable {
     case bubblegum
     case buttercup
     case indigo
@@ -43,5 +45,9 @@ enum Theme: String {
     
     var name: String {
         rawValue.capitalized
+    }
+    
+    var id: String {
+        name
     }
 }
