@@ -7,14 +7,17 @@
 
 import Foundation
 
-/*
- 
- List는 각 요소마다 고유의 값을 할당해줘야 한다.
- 스크럼 각각 고유의 값을 갖게 하려면 Identifiable 프로토콜을 채택하고, id 속성을 추가해주면 된다.
- 
+/** ✨ UUID
+  * List는 각 요소마다 고유의 값을 할당해줘야 한다.
+  * 스크럼 각각 고유의 값을 갖게 하려면 Identifiable 프로토콜을 채택하고, id 속성을 추가해주면 된다
+  */
+
+/** ✨ Codable
+  * Codable은 인코딩 / 디코딩 기능 프로토콜을 결합한 유형의 별칭
+  * Codable API를 사용해서 쉽게 데이터를 JSON으로 직렬화할 수 있다
  */
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     let id: UUID
     var title: String
     var attendees: [Attendee]
@@ -41,7 +44,7 @@ struct DailyScrum: Identifiable {
 }
 
 extension DailyScrum {
-    struct Attendee: Identifiable {
+    struct Attendee: Identifiable, Codable {
         let id: UUID
         var name: String
         
