@@ -20,7 +20,7 @@ class WeatherViewModel: ObservableObject {
     }
     
     func fetchWeather() {
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=seoul&units=&lang=kr&appid=a4766e8295d121a9d02bf06520ee56b6") else { return }
+        guard let url = URL(string: "") else { return }
         
         let task = URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data, error == nil else {
